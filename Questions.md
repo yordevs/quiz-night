@@ -323,7 +323,7 @@ If you're _really_ stuck, ask us for a quick nudge.[^1] Good luck!
      <a href="url" target="new">
      ```
    - ```HTML
-     <a href="url" target="new">
+     <a href="url" target="blank">
      ```
 
 1. Where on the whole wide web can you find this?
