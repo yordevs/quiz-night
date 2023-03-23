@@ -22,7 +22,7 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
    + `<h6>`
    - `<heading>`
 
-1. This is the modal window on the Yordle website. Which of the following HTML elements is this modal window nested in?[1]
+1. This is the modal window on the Yordle website. Which of the following HTML elements is this modal window nested in?[^ß]
    
    <img src="https://user-images.githubusercontent.com/68516952/224185710-64c3696d-5e91-4761-b261-48abf4722022.png" title="Yordle Modal Popup" width="350">
 
@@ -31,7 +31,7 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
    - `<footer>`
    - `<iframe>`
 
-   [^1]: **Guidance:**: Open your browser developer tools (Ctrl-Shift-i) and select the Elements tab to inspect the Yordle landing page's HTML. Click the element selector button (Ctrl-Shift-c), select the modal window then investigate where the modal window is located in the HTML by expanding and collapsing the HTML elements in the DOM.
+   [^ß]: **Guidance:**: Open your browser developer tools (Ctrl-Shift-i) and select the Elements tab to inspect the Yordle landing page's HTML. Click the element selector button (Ctrl-Shift-c), select the modal window then investigate where the modal window is located in the HTML by expanding and collapsing the HTML elements in the DOM.
 
 1. What is the correct HTML tag for inserting a line break element?
 
@@ -245,18 +245,18 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
    + #F7ED74
    - #FFFFFF
 
-   [^i]: **Guidance:** The element(s) of class body is coloured #F7ED74, whereas the body HTML element is coloured #FFFFFF.
+   [^h]: **Guidance:** The element(s) of class body is coloured #F7ED74, whereas the body HTML element is coloured #FFFFFF.
 
-1. Using the same HTML code as the previous question, you may have noticed that our distant cousin is wingless. Which is the smallest _change in the code_ that wings the poor duck?[^j]
+1. Using the same HTML code as the previous question, you may have noticed that our distant cousin is wingless. Which is the smallest _change in the code_ that wings the poor duck?[^i]
 
    - Remove `display: none;` from the `wing` class styling
    + Replace `wing` by `wings` in the internal CSS
    - Replace `red-wing` by `red-wings` in the HTML document body
    - Add `display: block !important;` to both `red-wing` and `yellow-wing` class stylings
 
-   [^j]: **Guidance:** Smallest change, not the change that results in the shortest code. Replacing `wing` by `wings` causes the `display: none;` property to no longer be inherited by `red-wing` and `yellow-wing`.  
+   [^i]: **Guidance:** Smallest change, not the change that results in the shortest code. Replacing `wing` by `wings` causes the `display: none;` property to no longer be inherited by `red-wing` and `yellow-wing`.  
 
-1. Going up the Yordevs family tree for a quick history lesson. Who of the following is the oldest of the long lost Yordevs ancestors?[^2][^k]
+1. Going up the Yordevs family tree for a quick history lesson. Who of the following is the oldest of the long lost Yordevs ancestors?[^2][^j]
    
    - <img src="https://user-images.githubusercontent.com/68516952/223913883-74d9cec4-6452-4db5-a092-941ee906cdf2.png" title="Yordevs Ancient Logo 1" width="350">
    + <img src="https://user-images.githubusercontent.com/68516952/223913881-25d96dc9-d305-400a-9609-bbb02e4bdbce.png" title="Yordevs Ancient Logo 2" width="350">
@@ -265,9 +265,9 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
 
    [^2]: **Hint:** They were crafted using _only_ CSS!  
 
-   [^k]: **Guidance:** [If you go back far enough in the Yordevs website GitHub commit history...](https://github.com/yordevs/yordevs.github.io/commit/fbd26555f472469999a12b6666b48a37ee1558f2#diff-c3304bc069fb052ecac4e65e4b66572896e67e3612fa0e22d98bb9248c04151d)
+   [^j]: **Guidance:** [If you go back far enough in the Yordevs website GitHub commit history...](https://github.com/yordevs/yordevs.github.io/commit/fbd26555f472469999a12b6666b48a37ee1558f2#diff-c3304bc069fb052ecac4e65e4b66572896e67e3612fa0e22d98bb9248c04151d)
 
-1. Which of these statements concerning the HTML alt attribute is false?[^l]
+1. Which of these statements concerning the HTML alt attribute is false?[^k]
    
    - Null alt attributes should only be used for decorative images.
    - Alt attributes specify alternative information about an image, which is used if a user cannot view it (e.g. due to a slow connection, an error in the src attribute, or if a screen reader is used).
@@ -278,7 +278,7 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
      ```
      adds a PNG image named yordevs-duck.png with alternative text 'The Yordevs Duck' to a page.
 
-   [^l]: **Guidance:** The HTML:
+   [^k]: **Guidance:** The HTML:
          ```HTML
          <img src="yordevs-duck.png" alt="The Yordevs Duck">
          ```
@@ -306,7 +306,7 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
      <a href="http://www.yordevs.com">Yordevs</a> <!-- No, this is -->
      ```
 
-1. What message is displayed on the Yordevs Links page if the source is specified as a QR code?[^3][^m]  
+1. What message is displayed on the Yordevs Links page if the source is specified as a QR code?[^3][^l]  
 
    + "If you can scan a qr code you can make a website, why not use these links to find out more about us"
    - "You've come from a qr code? Why not join us and find out how we knew!"
@@ -315,9 +315,9 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
 
    [^3]: **Hint:** Check out URL query strings and parameters!
 
-   [^m]: **Guidance:** Navigate to https://links.yordevs.com/?source=qr. Alternatively search the [Yordevs Links page repo](https://github.com/yordevs/links.yordevs.com) to get to [App.js](https://github.com/yordevs/links.yordevs.com/blob/master/src/App.js).
+   [^l]: **Guidance:** Navigate to https://links.yordevs.com/?source=qr. Alternatively search the [Yordevs Links page repo](https://github.com/yordevs/links.yordevs.com) to get to [App.js](https://github.com/yordevs/links.yordevs.com/blob/master/src/App.js).
 
-1. What backend does this Contact Us form on the Yordevs Website use?[^n]  
+1. What backend does this Contact Us form on the Yordevs Website use?[^m]  
    
    <img src="https://user-images.githubusercontent.com/68516952/223878998-f14bb974-159b-4ced-9fcd-233d3c774751.png" title="Yordevs Contact Us" width="350">
    
@@ -326,7 +326,7 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
    + Formspree
    - Formspark
 
-   [^n]: **Guidance:** They are all valid form backend services! Inspect the Contact Us form's HTML in your browser developer tools.  
+   [^m]: **Guidance:** They are all valid form backend services! Inspect the Contact Us form's HTML in your browser developer tools.  
 
 1. The HTML code for the textarea of the Contact Us form in the previous question is as follows:
 
@@ -358,7 +358,7 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
      <a href="url" target="blank">
      ```
 
-1. Where on the whole wide web can you find this homage to Yordevs?[^o]
+1. Where on the whole wide web can you find this homage to Yordevs?[^n]
 
    <img src="https://user-images.githubusercontent.com/68516952/224188232-71904736-4ec3-4925-952c-03e6f14b3fd1.png" title="Yordevs Shoutout" width="350">  
 
@@ -367,48 +367,48 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
    - The Ebor Lex Journal website
    - The Yordle website
 
-   [^o]: **Guidance:** The font style may have been telling, but if you refresh the Lemon Press website often enough you'll see the footer changes.  
+   [^n]: **Guidance:** The font style may have been telling, but if you refresh the Lemon Press website often enough you'll see the footer changes.  
 
-1. How many ducks are present on the Yordevs Links page?[^p]  
+1. How many ducks are present on the Yordevs Links page?[^o]  
 
    + 170
    - 180
    - 200
    - 150
 
-   [^p]: **Guidance:** Search the [Yordevs Links page repo](https://github.com/yordevs/links.yordevs.com) to get to [Background.js](https://github.com/yordevs/links.yordevs.com/blob/master/src/Background.js). An object with key "number" contains a dictionary as value, in which `"value": 170`.  
+   [^o]: **Guidance:** Search the [Yordevs Links page repo](https://github.com/yordevs/links.yordevs.com) to get to [Background.js](https://github.com/yordevs/links.yordevs.com/blob/master/src/Background.js). An object with key "number" contains a dictionary as value, in which `"value": 170`.  
 
-1. Which of the following statements about the `<script>` HTML element is false?[^q]
+1. Which of the following statements about the `<script>` HTML element is false?[^p]
 
    + External JavaScript files must contain the `<script>` tag.
    - JavaScript, enclosed by `<script>` tags, can be present in both the `<head>` and `<body>` sections of a HTML document.
    - `<script src="index.js">` is the correct syntax for referring to an external script in a file called `index.js`.
    - JavaScript is put in the `<script>` HTML element.
 
-   [^q]: **Guidance:** A HTML element would not be present in a JavaScript file. For clarity, it's best practice to have external or internal JavaScript in the head of a HTML file, but it should be noted that the JS code runs before the remaining DOM content loads from the HTML code (to adjust, see [this Stack Overflow answer](https://stackoverflow.com/a/24070373)).
+   [^p]: **Guidance:** A HTML element would not be present in a JavaScript file. For clarity, it's best practice to have external or internal JavaScript in the head of a HTML file, but it should be noted that the JS code runs before the remaining DOM content loads from the HTML code (to adjust, see [this Stack Overflow answer](https://stackoverflow.com/a/24070373)).
         
-1. What HTTP request method gets you rick rolled on the Yordle Server?[^r]:   
+1. What HTTP request method gets you rick rolled on the Yordle Server?[^q]:   
 
    - DELETE
    - POST
    - PUT
    + GET
 
-   [^r]: **Guidance:** Fetching data (a GET request) when navigating to https://api.yordle.co.uk/ redirects you. Alternatively, in [index.ts](https://github.com/yordevs/yordle-server/blob/master/index.ts) of the [Yordle Server repo](https://github.com/yordevs/yordle-server), you can see:
+   [^q]: **Guidance:** Fetching data (a GET request) when navigating to https://api.yordle.co.uk/ redirects you. Alternatively, in [index.ts](https://github.com/yordevs/yordle-server/blob/master/index.ts) of the [Yordle Server repo](https://github.com/yordevs/yordle-server), you can see:
          ```TypeScript
          app.get("*", (req, res) => {
           res.redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
          })
          ```
         
-1. What HTTP status code (although _slightly_ misleadingly) is accompanied by [this response](https://raw.githubusercontent.com/yordevs/yordle-server/master/resources/forbiddenResponse.txt) on the Yordle Server upon an POST request with an invalid body?[^s]  
+1. What HTTP status code (although _slightly_ misleadingly) is accompanied by [this response](https://raw.githubusercontent.com/yordevs/yordle-server/master/resources/forbiddenResponse.txt) on the Yordle Server upon an POST request with an invalid body?[^r]  
 
    + 403
    - 200
    - 400
    - 402
 
-   [^s]: **Guidance:** A forbidden response is usually accompanied by a 400 HTTP status code (not 403, as it currently does for the Yordle website), hence the '_slightly_ misleadingly'. The forbidden response is received along with a 403 status code if the body of a POST request is invalid. Alternatively, search the [Yordle Server repo](https://github.com/yordevs/yordle-server) for `forbiddenResponse` (`forbiddenResponse.txt` yields no response) to get to [index.ts](https://github.com/yordevs/yordle-server/blob/8229d1b2620ffbc57e3b961a8ee5af4536091f2b/index.ts) and find the following code blocks:
+   [^r]: **Guidance:** A forbidden response is usually accompanied by a 400 HTTP status code (not 403, as it currently does for the Yordle website), hence the '_slightly_ misleadingly'. The forbidden response is received along with a 403 status code if the body of a POST request is invalid. Alternatively, search the [Yordle Server repo](https://github.com/yordevs/yordle-server) for `forbiddenResponse` (`forbiddenResponse.txt` yields no response) to get to [index.ts](https://github.com/yordevs/yordle-server/blob/8229d1b2620ffbc57e3b961a8ee5af4536091f2b/index.ts) and find the following code blocks:
          ```TypeScript
          var forbiddenResponse: string;
          fs.readFile('resources/forbiddenResponse.txt', 'utf8', function (err, data) {
@@ -443,7 +443,7 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
    - To only store information about search engines.
    - To only store information about users.   
    
-1. Which of the following HTMLs ensures that a valid and untruncated meta description will be displayed in Google search results?[^t]
+1. Which of the following HTMLs ensures that a valid and untruncated meta description will be displayed in Google search results?[^s]
 
    + ```HTML
      <head>
@@ -474,7 +474,7 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
      </head>
      ```
 
-   [^t]: **Guidance:** Although meta title and meta descriptions can be of any length, when displayed as website snippets on search engine results pages, they are truncated typically to fit the device width. Google truncates meta titles to under 60 characters and meta descriptions to under 160 characters, but this can vary.
+   [^s]: **Guidance:** Although meta title and meta descriptions can be of any length, when displayed as website snippets on search engine results pages, they are truncated typically to fit the device width. Google truncates meta titles to under 60 characters and meta descriptions to under 160 characters, but this can vary.
         
 1. Why is the SERP (Search Engine Results Page) snippet different from the meta description declared in the HTML for the Yordevs NextJS Tutorial? 
 
@@ -490,14 +490,14 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
    - Search engines change the meta descriptions of pages when they detect little relevance between the existing meta description of a result page and a user search query. Instead they use other snippets from the page that may be more relevant.
    - Search engines change the meta descriptions of pages when they detect a lot of relevance between the existing meta description of a result page and a user search query. Instead they use other snippets from the page that may be more relevant.  
 
-1. SEO (Search Engine Optimisation) work aims to improve website traffic to a website via search engines by improving the page rank (position in search rankings). Which of the following statements about SEO is false?[^u]
+1. SEO (Search Engine Optimisation) work aims to improve website traffic to a website via search engines by improving the page rank (position in search rankings). Which of the following statements about SEO is false?[^t]
 
    - Offpage SEO measures are applied outside of a website. Tactics include link building, guest posting and social media marketing. Offpage SEO aims to build your website's reputation and credibility.
    - Onpage SEO tactics are applied directly within a website. Examples include measures to optimise the content or improve the meta description and title tags.
    + White hat SEO strategies exclude link building, quality content creation, improving website performance, using descriptive meta tags, improving site navigation and utilising responsive web design.
    - Black hat SEO techniques are unethical (but not illegal) SEO practices that clash with search engine guidelines and often result in penalties from search engines. Examples include keyword stuffing, cloaking, blog commenting, user-generated content spamming, using private link networks and even hacking.
 
-   [^u]: **Guidance:** White hat SEO strategies include link building, quality content creation, improving website performance, using descriptive meta tags, improving site navigation and utilising responsive web design.  
+   [^t]: **Guidance:** White hat SEO strategies include link building, quality content creation, improving website performance, using descriptive meta tags, improving site navigation and utilising responsive web design.  
 
 1. What HTML form input presents multiple options, but allows the selection of only one?
 
@@ -506,7 +506,7 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
    - `<input type="checkbox">`
    - `<textarea>`
 
-1. What is the correct JavaScript code to change the content of the HTML element below?[^v]
+1. What is the correct JavaScript code to change the content of the HTML element below?[^u]
 
    ```HTML
    <p id="hello">Hello World!</p>
@@ -525,9 +525,9 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
      document.getElement("p").innerHTML = "Hello Yordevs!";
      ```
 
-   [^v]: **Guidance:** Use [CodePen.io](https://codepen.io/) to test the changes.
+   [^u]: **Guidance:** Use [CodePen.io](https://codepen.io/) to test the changes.
 
-1. Which of these is a valid HTML code snippet?[^w]
+1. Which of these is a valid HTML code snippet?[^v]
 
     - ```HTML
       <h1> Yordevs Quiz Night 2023
@@ -546,7 +546,7 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
       <h2>Questions<h2>
       ```
 
-   [^w]: **Guidance:** Check in a HTML validator (e.g. [this one](https://validator.w3.org/#validate_by_input), although note that it validates HTML documents (not just code snippets), so expects the doctype declaration and other elements too).
+   [^v]: **Guidance:** Check in a HTML validator (e.g. [this one](https://validator.w3.org/#validate_by_input), although note that it validates HTML documents (not just code snippets), so expects the doctype declaration and other elements too).
       
 1. What is the correct HTML for making a checkbox?
 
@@ -564,7 +564,7 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
    - None, as they are enclosed by `<header>`
    + `<nav>`
 
-1. When you hover over an item on the Yordevs nav bar, the change is very visual. Which of the following is not a valid reason, according to the WCAG 2.0 guidelines, for this?[^x]
+1. When you hover over an item on the Yordevs nav bar, the change is very visual. Which of the following is not a valid reason, according to the WCAG 2.0 guidelines, for this?[^w]
 
    <img src="https://user-images.githubusercontent.com/68516952/224136816-5166bd30-07d8-4682-b962-b77d03828aaa.png" title="Yordevs Nav Bar on Hover" width="350">
    
@@ -573,7 +573,7 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
    - Links should look like links, and nothing else should.
    - Alternative visual mouse hover effects (such as background glows, drop shadows, color changes) for navigation links can help users know that an element is clickable.
 
-   [^x]: **Guidance:** A change in colour upon mouse hover and keyboard focus is not sufficient enough to indicate a hyperlink, as some users have low vision, color deficiency, or page color overrides.
+   [^w]: **Guidance:** A change in colour upon mouse hover and keyboard focus is not sufficient enough to indicate a hyperlink, as some users have low vision, color deficiency, or page color overrides.
 
 1. Keyboard users utilise the tab and shift-tab keys to navigate through interactive web page elements. Visual indication of the element with current keyboard focus, called a focus indicator, is thus useful for sighted keyboard users. An example of a focus indicator on the button link to the Yordevs Website from the Yordevs Links page is shown. To ensure the same visual presentation is available upon both mouse hover or keyboard focus, any time `a:hover` is adjusted in CSS, `a:focus` should be too. Which of the following elements on the Yordevs website does not provide focus indication?
 
@@ -584,7 +584,7 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
    - <img src="https://user-images.githubusercontent.com/68516952/224177236-0191861c-05f6-4d75-81ee-053bf9c2d60c.png" title="Focus Indicator 3" width="350">
    - <img src="https://user-images.githubusercontent.com/68516952/224176940-4b7e5170-3039-4f4a-85d4-2fe6348b7e57.png" title="Focus Indicator 4" width="350">
 
-1. Which of these is the biggest setback for keyboard users when navigating the Yordevs website when zoomed in at 125%+ or on a smaller viewport?[^y]
+1. Which of these is the biggest setback for keyboard users when navigating the Yordevs website when zoomed in at 125%+ or on a smaller viewport?[^x]
 
    <img src="https://user-images.githubusercontent.com/68516952/224178311-6d3e5a75-8c9b-4ce3-aac4-15593eacf9aa.png" title="Smaller Viewport" width="350">
    
@@ -593,7 +593,7 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
    - There is no focus indicator on the `Blogs` navigation link.
    - The tab order is awesome!
 
-   [^y]: **Guidance:** As of yet, keyboard users are unable to navigate the Yordevs website via the nav bar.
+   [^x]: **Guidance:** As of yet, keyboard users are unable to navigate the Yordevs website via the nav bar.
 
 1. What are `<div>` tags used for in a HTML document?
    - To replace paragraphs (i.e. `<p>` tags).
@@ -601,7 +601,7 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
    + To logically divide the document.
    - To create space between sections of a document.
 
-1. Which of these is syntactically correct JavaScript for opening a new window redirecting to the Yordevs website?[^z]
+1. Which of these is syntactically correct JavaScript for opening a new window redirecting to the Yordevs website?[^y]
 
    - ```JavaScript
      var yd = window.new("https://yordevs.com/");
@@ -616,7 +616,7 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
      var yd = window.open("https://yordevs.com/");
      ```
 
-   [^z]: **Guidance:** Test the codes out in a [W3Schools Tryit Editor](https://www.w3schools.com/jsref/met_win_open.asp).
+   [^y]: **Guidance:** Test the codes out in a [W3Schools Tryit Editor](https://www.w3schools.com/jsref/met_win_open.asp).
 
 1. Which HTML attribute is used to specify that an form element input field has to be filled out?
 
@@ -625,7 +625,7 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
    + required
    - placeholder
 
-1. What is the output on the console after running the following JavaScript code containing regex?[^ß]
+1. What is the output on the console after running the following JavaScript code containing regex?[^z]
 
    ```JavaScript
    const input = "Remember then to send this tonight!";
@@ -641,7 +641,7 @@ If you're _really_ stuck, check the footnotes[^!] for a quick nudge or ask us fo
    - send this then!
    - hen night to remember!
 
-   [^ß]: **Guidance:** Run the code in the JavaScript console in your browser developer tool (Ctrl-Shift-i). You can also test out regexes in an online regular expression tester e.g. [regex101](https://regex101.com/).
+   [^z]: **Guidance:** Run the code in the JavaScript console in your browser developer tool (Ctrl-Shift-i). You can also test out regexes in an online regular expression tester e.g. [regex101](https://regex101.com/).
 
 ## Conclusion
 Aaaand you're done - phew! Congratulations on getting here. Just remember to send your answers in an email off to yordevs@yusu.org!
